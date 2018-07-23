@@ -1,0 +1,55 @@
+# Ignore everything in the root except the "wp-content" directory, .gitignore, package.json, gulpfile.js, README.md
+/*
+!.gitignore
+!package.json
+!gulpfile.js
+!README.md
+!wp-content/
+
+
+# Ignore everything in the "wp-content" directory, except the "themes" and "plugins" directory.
+wp-content/*
+!wp-content/themes/
+!wp-content/plugins/
+
+
+# Ignore everything in the "themes" directory, except "freelancemarketplacericardo and it's child"
+wp-content/themes/*
+!wp-content/themes/freelancemarketplacericardo/
+!wp-content/themes/freelancemarketplacericardo-child/
+
+# Ignore certain files and folders in theme
+wp-content/themes/freelancemarketplacericardo-child/users.txt
+wp-content/themes/freelancemarketplacericardo-child/images/
+
+
+
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+node_modules/
+.tmp/
+
+# OS or Editor folders
+.DS_Store
+Thumbs.db
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+.komodotools
+_notes
+dwsync.xml

@@ -1,0 +1,44 @@
+/*
+ Theme Name:   FreelanceMarketplaceRicardo Child
+ Theme URI:    https://wppanic.org/
+ Description:  This Child Theme has been created for FreelanceMarketplaceRicardo
+ Author:       Shihab
+ Author URI:   https://wppanic.org/portfolio/
+ Template:     freelancemarketplacericardo
+ Version:      1.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  freelancemarketplacericardo
+*/
+
+/* 3rd party packages */
+@import "normalize.css";
+
+
+/* SASS and Global'ish Stuff */
+@import "base/variables";
+@import "base/baseline";
+@import "base/utility-classes";
+
+/* BEM Blocks */
+@import "modules/shame";
+@import "modules/login";
+@import "modules/btn";
+@import "modules/my-notes";
+@import "modules/site-header";
+@import "modules/site-footer";
+@import "modules/main-navigation";
+@import "modules/page-banner";
+@import "modules/hero-slider";
+@import "modules/search-overlay";
+@import "modules/professor-card";
+@import "modules/headline";
+@import "modules/generic-content";
+@import "modules/full-width-split";
+@import "modules/event-summary";
+@import "modules/page-links";
+@import "modules/acf-map";
+@import "modules/link-list";
+@import "modules/metabox";
+@import "modules/post-item";

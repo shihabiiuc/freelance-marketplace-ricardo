@@ -1,0 +1,1289 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FrE Credit\n"
+"Report-Msgid-Bugs-To: http://www.enginethemes.com/\n"
+"POT-Creation-Date: 2017-11-07 10:06+0700\n"
+"PO-Revision-Date: 2017-11-07 10:06+0700\n"
+"Last-Translator: dakachi <david87dang@gmail.com>\n"
+"Language-Team: Engine Themes <contact@enginethemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-KeywordsList: _e;__;_n\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin-template/credit-plan-form-js.php:7
+#: admin-template/credit-plan-form.php:5
+msgid "SKU"
+msgstr ""
+
+#: admin-template/credit-plan-form-js.php:12
+msgid "Package name"
+msgstr ""
+
+#: admin-template/credit-plan-form-js.php:17
+#: admin-template/credit-plan-form.php:15
+msgid "Price"
+msgstr ""
+
+#: admin-template/credit-plan-form-js.php:22
+#: admin-template/credit-plan-form.php:20
+msgid "Money number for this package"
+msgstr ""
+
+#: admin-template/credit-plan-form-js.php:24
+#: admin-template/credit-plan-form.php:22
+msgid "money to wallet"
+msgstr ""
+
+#: admin-template/credit-plan-form-js.php:28
+#: admin-template/credit-plan-form.php:26
+msgid "Short description about this package"
+msgstr ""
+
+#: admin-template/credit-plan-form-js.php:36
+msgid "Save Package"
+msgstr ""
+
+#: admin-template/credit-plan-form-js.php:38 template.php:454 template.php:496
+msgid "Cancel"
+msgstr ""
+
+#: admin-template/credit-plan-form.php:10
+msgid "Enter a name for your plan"
+msgstr ""
+
+#: admin-template/credit-plan-form.php:34
+msgid "Save Plan"
+msgstr ""
+
+#: admin-template/withdraw-item-js.php:5 admin-template/withdraw-item.php:13
+msgid "Approve"
+msgstr ""
+
+#: admin-template/withdraw-item-js.php:8 admin-template/withdraw-item.php:16
+msgid "Decline"
+msgstr ""
+
+#: admin-template/withdraw-item-js.php:16 admin-template/withdraw-item.php:29
+#: class-credit-history.php:339 container-withdraws.php:37 template.php:278
+msgid "Pending"
+msgstr ""
+
+#: admin-template/withdraw-item-js.php:18 admin-template/withdraw-item.php:33
+msgid "Confirmed"
+msgstr ""
+
+#: admin-template/withdraw-item-js.php:20 admin-template/withdraw-item.php:36
+msgid "Failed"
+msgstr ""
+
+#: admin-template/withdraw-item-js.php:31 admin-template/withdraw-item.php:47
+msgid " by "
+msgstr ""
+
+#: admin-template/withdraw-item.php:58
+#, php-format
+msgid "This post has been deleted by %s"
+msgstr ""
+
+#: class-credit-employer.php:105
+msgid "Please select a package plan!"
+msgstr ""
+
+#: class-credit-employer.php:126 class-credit-users.php:365
+msgid "Payment success!"
+msgstr ""
+
+#: class-credit-employer.php:132 class-credit-users.php:371
+msgid "You don't have enough money in your wallet!"
+msgstr ""
+
+#: class-credit-employer.php:155 class-credit-escrow.php:58
+#: class-credit-users.php:91 class-credit-users.php:146
+#: class-credit-users.php:762
+msgid "Please enter a valid secure code!"
+msgstr ""
+
+#: class-credit-employer.php:197
+msgid " to post a project"
+msgstr ""
+
+#: class-credit-employer.php:263
+msgid "FrE credit payment method false."
+msgstr ""
+
+#: class-credit-escrow.php:251
+msgid "Payment failed!"
+msgstr ""
+
+#: class-credit-escrow.php:368 class-credit-escrow.php:460
+msgid "Received"
+msgstr ""
+
+#: class-credit-escrow.php:406 class-credit-escrow.php:599
+msgid "Send payment successful."
+msgstr ""
+
+#: class-credit-escrow.php:412 class-credit-escrow.php:484
+msgid "Send payment failed"
+msgstr ""
+
+#: class-credit-escrow.php:419 class-credit-escrow.php:491
+msgid "Invalid charge."
+msgstr ""
+
+#: class-credit-escrow.php:478
+msgid "The payment has been successfully transferred."
+msgstr ""
+
+#: class-credit-escrow.php:570
+msgid "Paid"
+msgstr ""
+
+#: class-credit-escrow.php:600
+msgid "Success"
+msgstr ""
+
+#: class-credit-history.php:62 class-credit-history.php:63
+msgid "Credit history"
+msgstr ""
+
+#: class-credit-history.php:64 class-credit-plans.php:64
+#: class-credit-withdraw.php:64
+msgid "Add New"
+msgstr ""
+
+#: class-credit-history.php:65
+msgid "Add New Credit history"
+msgstr ""
+
+#: class-credit-history.php:66
+msgid "Edit Credit history"
+msgstr ""
+
+#: class-credit-history.php:67
+msgid "New Credit history"
+msgstr ""
+
+#: class-credit-history.php:68
+msgid "All Credit histories"
+msgstr ""
+
+#: class-credit-history.php:69
+msgid "View Credit history"
+msgstr ""
+
+#: class-credit-history.php:70
+msgid "Search Credit histories"
+msgstr ""
+
+#: class-credit-history.php:71
+msgid "No Credit history found"
+msgstr ""
+
+#: class-credit-history.php:72
+msgid "No Credit histories found in Trash"
+msgstr ""
+
+#: class-credit-history.php:74
+msgid "Credit histories"
+msgstr ""
+
+#: class-credit-history.php:125
+msgid "credit history"
+msgstr ""
+
+#: class-credit-history.php:131
+msgid "Freelance escrow"
+msgstr ""
+
+#: class-credit-history.php:230 class-credit-history.php:308
+msgid "Credit system"
+msgstr ""
+
+#: class-credit-history.php:239
+msgid "Project dispute win"
+msgstr ""
+
+#: class-credit-history.php:241 class-credit-history.php:302
+#: class-credit-history.php:304 class-credit-history.php:323
+#: class-credit-history.php:328
+msgid "detail"
+msgstr ""
+
+#: class-credit-history.php:251 class-credit-history.php:273 template.php:429
+msgid "PayPal"
+msgstr ""
+
+#: class-credit-history.php:258
+msgid "Bank Transfer"
+msgstr ""
+
+#: class-credit-history.php:264
+msgid "Withdraw credit"
+msgstr ""
+
+#: class-credit-history.php:265 template.php:242 template.php:244
+#: template.php:264 template.php:452
+msgid "Withdraw"
+msgstr ""
+
+#: class-credit-history.php:269
+msgid "Deposit credit"
+msgstr ""
+
+#: class-credit-history.php:276 template.php:216 template.php:263
+msgid "Deposit"
+msgstr ""
+
+#: class-credit-history.php:290 class-credit-history.php:294
+#, php-format
+msgid "Purchase %s package "
+msgstr ""
+
+#: class-credit-history.php:302 class-credit-history.php:321
+msgid "Project commission fee"
+msgstr ""
+
+#: class-credit-history.php:304 class-credit-history.php:326
+msgid "Project payment"
+msgstr ""
+
+#: class-credit-history.php:309 template.php:266
+msgid "Pay"
+msgstr ""
+
+#: class-credit-history.php:332 template.php:265
+msgid "Receive"
+msgstr ""
+
+#: class-credit-history.php:338 template.php:276
+msgid "Completed"
+msgstr ""
+
+#: class-credit-history.php:340 template.php:277
+msgid "Cancelled"
+msgstr ""
+
+#: class-credit-history.php:341
+msgid "Refunded"
+msgstr ""
+
+#: class-credit-history.php:342
+msgid "Recieved"
+msgstr ""
+
+#: class-credit-plans.php:62 class-credit-plans.php:63
+msgid "Credit plan"
+msgstr ""
+
+#: class-credit-plans.php:65
+msgid "Add New Credit plan"
+msgstr ""
+
+#: class-credit-plans.php:66
+msgid "Edit Credit plan"
+msgstr ""
+
+#: class-credit-plans.php:67
+msgid "New Credit plan"
+msgstr ""
+
+#: class-credit-plans.php:68
+msgid "All Credit plans"
+msgstr ""
+
+#: class-credit-plans.php:69
+msgid "View Credit plan"
+msgstr ""
+
+#: class-credit-plans.php:70
+msgid "Search Credit plans"
+msgstr ""
+
+#: class-credit-plans.php:71
+msgid "No Credit plan found"
+msgstr ""
+
+#: class-credit-plans.php:72
+msgid "No Credit plans found in Trash"
+msgstr ""
+
+#: class-credit-plans.php:74
+msgid "Credit plans"
+msgstr ""
+
+#: class-credit-plans.php:106
+#, php-format
+msgid "%s  for %s credits"
+msgstr ""
+
+#: class-credit-users.php:72
+msgid "Successful!"
+msgstr ""
+
+#: class-credit-users.php:112
+msgid "Nothing updated since your information isn't changed!"
+msgstr ""
+
+#: class-credit-users.php:121 class-credit-users.php:167
+msgid "Update successful!"
+msgstr ""
+
+#: class-credit-users.php:126 class-credit-users.php:172
+msgid "Error!"
+msgstr ""
+
+#: class-credit-users.php:159
+msgid "Nothing updated since you don't change your information!"
+msgstr ""
+
+#: class-credit-users.php:407
+msgid "You don't have enough money in you wallet!"
+msgstr ""
+
+#: class-credit-users.php:473
+msgid "Success!"
+msgstr ""
+
+#: class-credit-users.php:478
+msgid "There isn't any charge for this transferring!"
+msgstr ""
+
+#: class-credit-users.php:532
+msgid "Refund success!"
+msgstr ""
+
+#: class-credit-users.php:539
+msgid "There isn't any froze money for this refund!"
+msgstr ""
+
+#: class-credit-users.php:546
+msgid "There isn't any charge for this refund!"
+msgstr ""
+
+#: class-credit-users.php:595
+#, php-format
+msgid "You've successfully purchased %d ."
+msgstr ""
+
+#: class-credit-users.php:755 class-credit-users.php:903
+msgid ""
+"Your account is pending. You have to activate your account to continue this "
+"step."
+msgstr ""
+
+#: class-credit-users.php:771
+msgid "Please enter a valid amount!"
+msgstr ""
+
+#: class-credit-users.php:778
+msgid "Please enter a number greater than minimum withdraw"
+msgstr ""
+
+#: class-credit-users.php:788
+msgid "Your available credit is not enough to request a withdrawal!"
+msgstr ""
+
+#: class-credit-users.php:808
+#, php-format
+msgid "%s sent a request to withdraw %s "
+msgstr ""
+
+#: class-credit-users.php:813
+msgid "<b>Payment Information</b><br>"
+msgstr ""
+
+#: class-credit-users.php:815
+#, php-format
+msgid "Paypal Account: %s"
+msgstr ""
+
+#: class-credit-users.php:817
+#, php-format
+msgid "Benficial Owner: %s<br>"
+msgstr ""
+
+#: class-credit-users.php:818
+#, php-format
+msgid "Account number:  %s<br>"
+msgstr ""
+
+#: class-credit-users.php:819
+#, php-format
+msgid "Banking Information: %s<br>"
+msgstr ""
+
+#: class-credit-users.php:838
+#, php-format
+msgid "User %s  has sent a withdraw request"
+msgstr ""
+
+#: class-credit-users.php:843
+msgid "Send request successful!"
+msgstr ""
+
+#: class-credit-users.php:850
+msgid "Send request failed!"
+msgstr ""
+
+#: class-credit-users.php:908
+msgid "Please wait a minute to request a new secure code!"
+msgstr ""
+
+#: class-credit-users.php:915
+#, php-format
+msgid "New secure code on %s"
+msgstr ""
+
+#: class-credit-users.php:920
+msgid "Your request to generate a secure code is failed!"
+msgstr ""
+
+#: class-credit-users.php:925
+msgid "Your secure code is sent to your email!"
+msgstr ""
+
+#: class-credit-withdraw.php:62 class-credit-withdraw.php:63
+msgid "Credit withdraw"
+msgstr ""
+
+#: class-credit-withdraw.php:65
+msgid "Add New Credit withdraw"
+msgstr ""
+
+#: class-credit-withdraw.php:66
+msgid "Edit Credit withdraw"
+msgstr ""
+
+#: class-credit-withdraw.php:67
+msgid "New Credit withdraw"
+msgstr ""
+
+#: class-credit-withdraw.php:68
+msgid "All Credit withdraws"
+msgstr ""
+
+#: class-credit-withdraw.php:69
+msgid "View Credit withdraw"
+msgstr ""
+
+#: class-credit-withdraw.php:70
+msgid "Search Credit withdraws"
+msgstr ""
+
+#: class-credit-withdraw.php:71
+msgid "No Credit withdraw found"
+msgstr ""
+
+#: class-credit-withdraw.php:72
+msgid "No Credit withdraws found in Trash"
+msgstr ""
+
+#: class-credit-withdraw.php:74
+msgid "Credit withdraws"
+msgstr ""
+
+#: container-withdraws.php:35 template.php:262
+msgid "All"
+msgstr ""
+
+#: container-withdraws.php:36
+msgid "Publish"
+msgstr ""
+
+#: container-withdraws.php:38
+msgid "Draft"
+msgstr ""
+
+#: container-withdraws.php:43
+msgid "Search post..."
+msgstr ""
+
+#: container-withdraws.php:51
+msgid "All Withdraws"
+msgstr ""
+
+#: container-withdraws.php:65
+msgid "There are no payments yet."
+msgstr ""
+
+#: container-withdraws.php:150
+msgid "Approve withdraw request"
+msgstr ""
+
+#: container-withdraws.php:154
+msgid "Cancel withdraw request"
+msgstr ""
+
+#: container-withdraws.php:198
+msgid "Update withdraw successful!"
+msgstr ""
+
+#: container-withdraws.php:203
+msgid "There isn't enough money in your wallet!"
+msgstr ""
+
+#: container-withdraws.php:209
+msgid "There isn't any charge for this withdraw request!"
+msgstr ""
+
+#: container-withdraws.php:216
+msgid "Please login to your administrator to update withdraw!"
+msgstr ""
+
+#: container-withdraws.php:255
+#, php-format
+msgid "%s approved your withdraw request."
+msgstr ""
+
+#: container-withdraws.php:261 container-withdraws.php:272
+#, php-format
+msgid "%s on %s"
+msgstr ""
+
+#: container-withdraws.php:266
+#, php-format
+msgid "%s declined your withdraw request."
+msgstr ""
+
+#: container-withdraws.php:292
+msgid "Are you sure to decline this request?"
+msgstr ""
+
+#: fre-credit.php:153
+#, php-format
+msgid "Value must be greater than or equal to %s!"
+msgstr ""
+
+#: fre-credit.php:155
+msgid "Your available credit is not enough to request for withdrawal!"
+msgstr ""
+
+#: fre-credit.php:156
+#, php-format
+msgid ""
+"Unable to withdraw money. Your available credit must be greater or equal to "
+"%s!"
+msgstr ""
+
+#: fre-credit.php:160
+msgid ""
+"<div class='no-transaction'><span>There isn't any transaction!</span></div>"
+msgstr ""
+
+#: fre-credit.php:162
+msgid "Credits in your account will be deducted to make the payment"
+msgstr ""
+
+#: fre-credit.php:163
+msgid ""
+"<i class='fa fa-warning'></i>Your available credit isn't enough to proceed "
+"the payment. Please top up the credit"
+msgstr ""
+
+#: functions.php:571
+msgid ""
+"Please send the payment to admin to complete your payment.<br>Your credits "
+"are under admin review. It will be available after admin approval."
+msgstr ""
+
+#: settings.php:30
+msgid "Select page"
+msgstr ""
+
+#: settings.php:54
+msgid "Credit Settings"
+msgstr ""
+
+#: settings.php:62 settings.php:71
+msgid "Use credit system"
+msgstr ""
+
+#: settings.php:65
+msgid "Enabling this will allow users use credit system on site."
+msgstr ""
+
+#: settings.php:79 settings.php:88
+msgid "Prevent access to deposit page"
+msgstr ""
+
+#: settings.php:82
+msgid ""
+"Enabling this will prevent users from accessing to deposit page on site."
+msgstr ""
+
+#: settings.php:96 settings.php:105
+msgid "Secure Code"
+msgstr ""
+
+#: settings.php:99
+msgid "Request a secure code for each credit transaction on your site."
+msgstr ""
+
+#: settings.php:114
+msgid "Deposit page slug"
+msgstr ""
+
+#: settings.php:117 settings.php:123
+msgid ""
+"Select a page for your users to Deposit Credit. (Only pages having shortcode "
+"[fre_credit_deposit] are displayed here.)"
+msgstr ""
+
+#: settings.php:125
+msgid "eg:deposit"
+msgstr ""
+
+#: settings.php:134
+msgid "Admin's email who will receive the notification"
+msgstr ""
+
+#: settings.php:137 settings.php:143
+msgid ""
+"Set admin's emails who will receive the notification. Each email is "
+"separated by comma(s)."
+msgstr ""
+
+#: settings.php:145
+msgid "abc@example.com, cde@example.com "
+msgstr ""
+
+#: settings.php:153 settings.php:156
+msgid "Minimum money in each withdraw process"
+msgstr ""
+
+#: settings.php:162
+msgid "Set minimum money in each withdraw process."
+msgstr ""
+
+#: settings.php:164
+msgid "50"
+msgstr ""
+
+#: settings.php:173
+msgid "Credit Plans"
+msgstr ""
+
+#: settings.php:190
+msgid "Mail Template"
+msgstr ""
+
+#: settings.php:199
+msgid "Mail description here"
+msgstr ""
+
+#: settings.php:200
+msgid ""
+"Email templates for new message. You can use placeholders to include some "
+"specific content."
+msgstr ""
+
+#: settings.php:201
+msgid "user's details you want to send mail"
+msgstr ""
+
+#: settings.php:202
+msgid "member dashboard url "
+msgstr ""
+
+#: settings.php:203
+msgid "project title, link, details, author"
+msgstr ""
+
+#: settings.php:204
+msgid "activate link is require for user to renew their pass"
+msgstr ""
+
+#: settings.php:205
+msgid " site info, admin email"
+msgstr ""
+
+#: settings.php:206
+msgid "list projects employer send to freelancer when invite him to join"
+msgstr ""
+
+#: settings.php:215 settings.php:246
+msgid "Deposit notification email template"
+msgstr ""
+
+#: settings.php:219
+msgid "Send to admin when there is a new deposit from users."
+msgstr ""
+
+#: settings.php:226
+msgid "Deposit notification email template to"
+msgstr ""
+
+#: settings.php:235
+msgid "Deposit notification email template send to buyer"
+msgstr ""
+
+#: settings.php:239
+msgid "Send to buyer after buy package to deposit credit ."
+msgstr ""
+
+#: settings.php:255
+msgid "Request secure code email template"
+msgstr ""
+
+#: settings.php:259
+msgid "Send to users their secure code when they request one."
+msgstr ""
+
+#: settings.php:266
+msgid "Request secure code email template."
+msgstr ""
+
+#: settings.php:275 settings.php:287
+msgid "Withdraw notification email template"
+msgstr ""
+
+#: settings.php:279
+msgid "Send to admin when there is a new withdrawal request from users."
+msgstr ""
+
+#: settings.php:306
+msgid "Credit system "
+msgstr ""
+
+#: settings.php:307
+msgid "CREDIT SYSTEM"
+msgstr ""
+
+#: settings.php:311
+msgid "Bridging the gap between Employers and Freelancers"
+msgstr ""
+
+#: settings.php:322
+msgid "Withdraws"
+msgstr ""
+
+#: settings.php:323
+msgid "WITHDRAWS"
+msgstr ""
+
+#: settings.php:327
+msgid "Overview of all withdraws"
+msgstr ""
+
+#: settings.php:364
+msgid "Credit escrow settings"
+msgstr ""
+
+#: settings.php:368 settings.php:378
+msgid ""
+"Enabling this will allow you to use credit escrow system and disable all "
+"other gateways!"
+msgstr ""
+
+#: settings.php:375
+msgid "use credit escrow"
+msgstr ""
+
+#: settings.php:383
+msgid "User email"
+msgstr ""
+
+#: settings.php:387
+msgid "Admin email receive commission"
+msgstr ""
+
+#: template.php:29
+msgid "Credit"
+msgstr ""
+
+#: template.php:30
+msgid "Your available balance"
+msgstr ""
+
+#: template.php:31
+msgid "Your balance is not enough to proceed the payment."
+msgstr ""
+
+#: template.php:33 template.php:35 template/fre-credit-deposit-step4.php:34
+#: template/fre-credit-deposit-step4.php:45
+#: template/fre-credit-deposit-step4.php:57
+msgid "Select"
+msgstr ""
+
+#: template.php:35
+msgid "Your balance is not enough for this plan"
+msgstr ""
+
+#: template.php:73
+msgid "Secure code"
+msgstr ""
+
+#: template.php:91 template.php:133
+msgid "My Credit"
+msgstr ""
+
+#: template.php:116
+msgid "Your withdrawal request is under admin review."
+msgstr ""
+
+#: template.php:141
+msgid "Balance"
+msgstr ""
+
+#: template.php:142
+msgid "Transaction"
+msgstr ""
+
+#: template.php:152
+msgid "Working Project"
+msgstr ""
+
+#: template.php:160
+msgid "Available Credit"
+msgstr ""
+
+#: template.php:167
+msgid "Current Consumption"
+msgstr ""
+
+#: template.php:176
+msgid "Pending Withdrawal"
+msgstr ""
+
+#: template.php:186
+msgid "Total Credit"
+msgstr ""
+
+#: template.php:203
+#, php-format
+msgid "Your %s package has been checked out by cash."
+msgstr ""
+
+#: template.php:204
+msgid "Your pending credit:"
+msgstr ""
+
+#: template.php:205
+msgid ""
+"This pending credit will be available to use when your payment is approved."
+msgstr ""
+
+#: template.php:213
+msgid "Top-up Credits"
+msgstr ""
+
+#: template.php:214
+msgid "Deposit to get more credits."
+msgstr ""
+
+#: template.php:220 template.php:378
+msgid "Credit Withdrawal"
+msgstr ""
+
+#: template.php:221
+msgid ""
+"Withdraw credit from your available balance. You can use either of two "
+"following payment methods:"
+msgstr ""
+
+#: template.php:224
+msgid "PayPal account"
+msgstr ""
+
+#: template.php:225 template.php:233
+msgid "Not yet update"
+msgstr ""
+
+#: template.php:227 template.php:235 template.php:494 template.php:550
+msgid "Update"
+msgstr ""
+
+#: template.php:232
+msgid "Banking info"
+msgstr ""
+
+#: template.php:242
+#, php-format
+msgid ""
+"Cannot withdraw money. Your available credit must be greater than or equal "
+"to %s"
+msgstr ""
+
+#: template.php:254
+msgid "Filter Transaction"
+msgstr ""
+
+#: template.php:260
+msgid "Transaction Type"
+msgstr ""
+
+#: template.php:267
+msgid "Refund"
+msgstr ""
+
+#: template.php:273
+msgid "Status"
+msgstr ""
+
+#: template.php:275
+msgid "All status"
+msgstr ""
+
+#: template.php:284
+msgid "Period"
+msgstr ""
+
+#: template.php:295
+msgid "Clear all filters"
+msgstr ""
+
+#: template.php:302
+msgid "TYPE"
+msgstr ""
+
+#: template.php:303
+msgid "AMOUNT"
+msgstr ""
+
+#: template.php:304
+msgid "ACTION"
+msgstr ""
+
+#: template.php:305
+msgid "PAYMENT GATEWAY"
+msgstr ""
+
+#: template.php:306
+msgid "STATUS"
+msgstr ""
+
+#: template.php:307
+msgid "TIME"
+msgstr ""
+
+#: template.php:331
+msgid "There isn't any transaction!"
+msgstr ""
+
+#: template.php:380
+msgid "Withdrawal Request Form"
+msgstr ""
+
+#: template.php:387
+msgid "No payment method available?"
+msgstr ""
+
+#: template.php:388
+msgid ""
+"You must update at least one payment method before submitting a withdrawal "
+"request."
+msgstr ""
+
+#: template.php:391
+msgid "OK"
+msgstr ""
+
+#: template.php:412
+msgid "Amount"
+msgstr ""
+
+#: template.php:418
+msgid "Minimum Withdrawal Amounts"
+msgstr ""
+
+#: template.php:424 template/fre-credit-deposit-step4.php:15
+msgid "Payment Method"
+msgstr ""
+
+#: template.php:426
+msgid "Select payment method"
+msgstr ""
+
+#: template.php:432
+msgid "Bank"
+msgstr ""
+
+#: template.php:439
+msgid "Payment Infomation"
+msgstr ""
+
+#: template.php:445
+msgid "Security code"
+msgstr ""
+
+#: template.php:484
+msgid "Update Your PayPal Account"
+msgstr ""
+
+#: template.php:489
+msgid "PayPal Account"
+msgstr ""
+
+#: template.php:526
+msgid "Update Banking Information"
+msgstr ""
+
+#: template.php:531
+msgid "Benificial Owner"
+msgstr ""
+
+#: template.php:535
+msgid "Account Number"
+msgstr ""
+
+#: template.php:539
+msgid "Banking Information"
+msgstr ""
+
+#: template.php:600
+msgid "Request a new Secure Code"
+msgstr ""
+
+#: template.php:603
+msgid "Reset Secure Code"
+msgstr ""
+
+#: template/form-template.php:9
+msgid "Your balance will be deducted:"
+msgstr ""
+
+#: template/form-template.php:13
+msgid "Estimated balance after payment:"
+msgstr ""
+
+#: template/form-template.php:18
+msgid "Your secure code:"
+msgstr ""
+
+#: template/form-template.php:23
+msgid "PAY TO YOUR BALANCE"
+msgstr ""
+
+#: template/fre-credit-deposit-step1.php:10
+msgid "Choose your most appropriate package"
+msgstr ""
+
+#: template/fre-credit-deposit-step1.php:16
+msgid "Free"
+msgstr ""
+
+#: template/fre-credit-deposit-step1.php:21
+#: template/fre-credit-deposit-step1.php:26
+#, php-format
+msgid "%s for %s credits."
+msgstr ""
+
+#: template/fre-credit-deposit-step1.php:23
+#, php-format
+msgid "%s for %s credit."
+msgstr ""
+
+#: template/fre-credit-deposit-step1.php:48
+msgid "Next Step"
+msgstr ""
+
+#: template/fre-credit-deposit-step2.php:12
+msgid "Login or Register"
+msgstr ""
+
+#: template/fre-credit-deposit-step2.php:14
+msgid "Login to your account"
+msgstr ""
+
+#: template/fre-credit-deposit-step2.php:24
+msgid "Already have an account?"
+msgstr ""
+
+#: template/fre-credit-deposit-step2.php:24
+msgid "Login"
+msgstr ""
+
+#: template/fre-credit-deposit-step2.php:35
+msgid "First Name"
+msgstr ""
+
+#: template/fre-credit-deposit-step2.php:35
+#: template/fre-credit-deposit-step2.php:38
+msgid "Enter first name"
+msgstr ""
+
+#: template/fre-credit-deposit-step2.php:46
+msgid "Last Name"
+msgstr ""
+
+#: template/fre-credit-deposit-step2.php:46
+#: template/fre-credit-deposit-step2.php:49
+msgid "Enter last name"
+msgstr ""
+
+#: template/fre-credit-deposit-step2.php:60
+#: template/fre-credit-deposit-step2.php:164
+msgid "Username"
+msgstr ""
+
+#: template/fre-credit-deposit-step2.php:60
+#: template/fre-credit-deposit-step2.php:63
+#: template/fre-credit-deposit-step2.php:167
+msgid "Enter username"
+msgstr ""
+
+#: template/fre-credit-deposit-step2.php:71
+msgid "Email address"
+msgstr ""
+
+#: template/fre-credit-deposit-step2.php:71
+msgid "Enter a email"
+msgstr ""
+
+#: template/fre-credit-deposit-step2.php:74
+msgid "Your email address"
+msgstr ""
+
+#: template/fre-credit-deposit-step2.php:82
+#: template/fre-credit-deposit-step2.php:85
+#: template/fre-credit-deposit-step2.php:96
+#: template/fre-credit-deposit-step2.php:175
+#: template/fre-credit-deposit-step2.php:178
+msgid "Password"
+msgstr ""
+
+#: template/fre-credit-deposit-step2.php:82
+msgid "Enter password"
+msgstr ""
+
+#: template/fre-credit-deposit-step2.php:93
+msgid "Retype Password"
+msgstr ""
+
+#: template/fre-credit-deposit-step2.php:93
+msgid "Retype password"
+msgstr ""
+
+#: template/fre-credit-deposit-step2.php:107
+#, php-format
+msgid ""
+"I agree with the <a href=\"%s\" target=\"_Blank\" rel=\"noopener noreferrer"
+"\" >Term of Use and Privacy policy</a>"
+msgstr ""
+
+#: template/fre-credit-deposit-step2.php:119
+msgid "Create account"
+msgstr ""
+
+#: template/fre-credit-deposit-step2.php:132
+msgid "Term of Use and Privacy policy"
+msgstr ""
+
+#: template/fre-credit-deposit-step2.php:135
+#, php-format
+msgid "By creating an account, you agree to our %s"
+msgstr ""
+
+#: template/fre-credit-deposit-step2.php:146
+#: template/fre-credit-deposit-step2.php:196
+msgid "You can also sign in by:"
+msgstr ""
+
+#: template/fre-credit-deposit-step2.php:157
+msgid "You do not have an account?"
+msgstr ""
+
+#: template/fre-credit-deposit-step2.php:157
+msgid "Register"
+msgstr ""
+
+#: template/fre-credit-deposit-step2.php:164
+msgid "Enter Username"
+msgstr ""
+
+#: template/fre-credit-deposit-step2.php:175
+msgid "Enter Password"
+msgstr ""
+
+#: template/fre-credit-deposit-step2.php:189
+#: template/fre-credit-deposit-step3.php:90
+msgid "Submit"
+msgstr ""
+
+#: template/fre-credit-deposit-step3.php:22
+msgid "Enter your project details"
+msgstr ""
+
+#: template/fre-credit-deposit-step3.php:32
+#, php-format
+msgid "Budget (%s)"
+msgstr ""
+
+#: template/fre-credit-deposit-step3.php:34
+msgid "Enter a short title for your project"
+msgstr ""
+
+#: template/fre-credit-deposit-step3.php:49
+msgid "Deadline"
+msgstr ""
+
+#: template/fre-credit-deposit-step3.php:59
+msgid "days"
+msgstr ""
+
+#: template/fre-credit-deposit-step3.php:60
+msgid "week"
+msgstr ""
+
+#: template/fre-credit-deposit-step3.php:75
+msgid "Notes"
+msgstr ""
+
+#: template/fre-credit-deposit-step3.php:77
+msgid "Describe your project in a few paragraphs"
+msgstr ""
+
+#: template/fre-credit-deposit-step4.php:8
+msgid "Your package:"
+msgstr ""
+
+#: template/fre-credit-deposit-step4.php:10
+msgid "Change package"
+msgstr ""
+
+#: template/fre-credit-deposit-step4.php:15
+msgid "Select your most appropriate payment method"
+msgstr ""
+
+#: template/fre-credit-deposit-step4.php:31
+msgid "Paypal"
+msgstr ""
+
+#: template/fre-credit-deposit-step4.php:32
+msgid "Send your payment via Paypal."
+msgstr ""
+
+#: template/fre-credit-deposit-step4.php:42
+msgid "2Checkout"
+msgstr ""
+
+#: template/fre-credit-deposit-step4.php:43
+msgid "Send your payment via 2Checkout."
+msgstr ""
+
+#: template/fre-credit-deposit-step4.php:54
+msgid "Cash"
+msgstr ""
+
+#: template/fre-credit-deposit-step4.php:55
+msgid "Transfer money directly to our bank account."
+msgstr ""
+
+#: template/fre-credit-deposit-step4.php:61
+msgid "Amount need to be transferred:"
+msgstr ""
+
+#: template/fre-credit-deposit-step4.php:66
+msgid "Transfer to bank account:"
+msgstr ""
+
+#: template/fre-credit-deposit-step4.php:77
+msgid "Make Payment"
+msgstr ""

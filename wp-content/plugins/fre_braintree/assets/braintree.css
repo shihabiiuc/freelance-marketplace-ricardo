@@ -1,0 +1,37 @@
+button#submit_braintree[disabled=disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+#braintree_form .braintree-form-control{
+    border: 1px solid #d7d9da;
+    color: #737c85;
+    margin-bottom: 30px;
+    height: 45px;
+    padding: 0 15px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    font-weight: 300
+}
+
+#braintree_form #container-paypal .button-paypal {
+    width: 90px;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    float: left;
+    cursor: pointer;
+    border: 1px solid #009ae0;
+    transition: all 0.3s ease-in-out;
+    background: #fff;
+}
+#braintree_form #container-paypal .button-paypal:hover {
+    box-shadow: 0px 0px 10px #00b0ff;
+}
+#braintree_form #container-paypal .button-paypal img {
+    height: 40px;
+}

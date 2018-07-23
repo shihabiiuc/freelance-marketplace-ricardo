@@ -1,0 +1,114 @@
+
+.modal-pin .modal-dialog{
+    width: 388px;
+}
+.modal-pin .modal-header{
+    padding: 10px 40px;
+}
+.modal-pin form{
+    padding-top: 10px;
+}
+.modal-pin button.close{
+    position: relative;
+    right: -15px;
+    font-size: 25px;
+}
+.modal-pin .form-group{
+    width: 100%;
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+    clear: both;
+    overflow: hidden;
+}
+.modal-pin .form-group label{
+    margin-bottom: 8px;
+}
+.modal-pin .form-group input{
+    width: 100%;
+    height: 39px;
+}
+.modal-pin .modal-body{
+    padding: 10px 25px;
+}
+.modal-pin .modal-body button.btn{
+    padding: 5px 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+.modal-pin .form-item-left{
+    width: 50%;
+    float: left;
+}
+.modal-pin .form-item-right{
+    width: 45%;
+    float: right;
+    padding-left: 12px;
+
+}
+.modal-pin .form-item-right label{
+
+}
+.modal-pin .form-item-right input{
+    width: 48px;
+    float: right;
+}
+.modal-pin .form-item-right .controls{
+    float: left;
+    width: 100%;
+    float: right;
+}
+.modal-pin .form-item-right span{
+    float: right;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 5px;
+}
+.modal-pin .form-item-right input.input-cvc{
+    width: 97%;
+}
+
+.modal-pin .modal-title{
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: 21px;
+}
+.modal-pin .modal-body .pin_date input[type="text"] {
+    width: 60px;
+    padding: 0 10px;
+}
+
+.modal-pin .modal-body .fld-wrap input[type="text"],
+.modal-pin .modal-body .name_card input[type="text"]
+{
+    width: 160px;
+}
+.modal-pin .modal-body .card-code  input[type="text"]{
+    width: 140px;
+    padding: 0 5px;
+}
+
+@media(max-width:767px){
+    .modal-pin .modal-body .fld-wrap input[type="text"], .modal-pin .modal-body .name_card input[type="text"] {
+        width: 120px;
+        font-size: 12px;
+    }
+    .modal-pin .form-item-left {
+        width: 45%;
+    }
+    .modal-pin .form-item-right {
+        width: 50%;
+    }
+    .modal-pin .modal-dialog {
+        width: 90%;
+    }
+    .modal-pin .modal-body .pin_date input[type="text"] {
+        width: 40px;
+        font-size: 12px;
+        padding: 0 5px;
+    }
+    .modal-pin .modal-body .card-code input[type="text"] {
+        width: 60px;
+        float: left;
+    }
+}
