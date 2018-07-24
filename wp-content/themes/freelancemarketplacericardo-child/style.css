@@ -420,7 +420,7 @@ p, li {
 
 .p-bottom-large {padding-bottom: 1.6rem}
 
-@media (min-width: 530px) {
+@media (max-width: 530px) {
   .p-top-large {padding-top: 3.5rem}
   .p-bottom-large {padding-bottom: 3.5rem}
   }
@@ -487,6 +487,79 @@ p, li {
 
 #catNav ul li a:hover{ color: #ED1B2E; }
 
+.ricardobanner{
+    max-height: 400px; position: relative;
+
+
+
+
+}
+
+.ricardobanner__heading{ font-family: 'Josefin Sans', sans-serif; color: #222222;
+        font-weight: 700; font-size: 4.5rem; line-height: 1.2; margin: 0;
+     }
+
+@media (max-width: 530px) {
+
+.ricardobanner__heading{ font-size: 2rem
+     }
+  }
+
+@media (max-width: 767px) {
+
+.ricardobanner__heading{ font-size: 3rem
+     }
+  }
+
+@media (max-width: 960px) {
+
+.ricardobanner__heading{ font-size: 2.5rem
+     }
+  }
+
+.ricardobanner__subtitle{ font-family: 'Open Sans', sans-serif; font-weight: 600;
+        font-size: 16px; color: #636161; margin-top: 15px; letter-spacing: 1px;
+     }
+
+.ricardobanner__getstarted{ background: #ED1B2E; color: #ffffff; padding: 10px 30px;
+        font-weight: 600; transition: all ease-out 0.8s;
+     }
+
+.ricardobanner__getstarted:hover{ background: #222222; color: #ffffff; }
+
+.ricardobanner__leftcontent{ margin-top: 50px;
+     }
+
+@media (max-width: 530px) {
+
+.ricardobanner__leftcontent{ margin-top: 5px
+     }
+  }
+
+@media (max-width: 767px) {
+
+.ricardobanner__leftcontent{ margin-top: 5px
+     }
+  }
+
+@media (max-width: 960px) {
+
+.ricardobanner__leftcontent{ margin-top: 0px
+     }
+  }
+
+.ricardobanner__middlecontent{ display: block; overflow: hidden;
+
+     }
+
+.ricardobanner__middlecontent img{ max-width: 100%; height: auto; }
+
+.ricardobanner__rightcontent{ position: absolute; right: 10px; bottom: 20px; text-align: right; }
+
+.ricardobanner__rightcontent p{ margin: 0; color: #222222; }
+
+.ricardobanner__rightcontent a{ font-weight: bold; color: #F95738; }
+
 .site-footer {
   padding: 2rem 0 3.5rem 0;
   background-image: linear-gradient(#FFF, #ECECEC);
@@ -520,7 +593,7 @@ p, li {
     text-align: center;
   }
 
-@media (min-width: 960px) {
+@media (max-width: 960px) {
 
 .site-footer__col-one {
       text-align: left;
@@ -535,7 +608,7 @@ p, li {
     margin: 0 auto;
   }
 
-@media (min-width: 960px) {
+@media (max-width: 960px) {
 
 .site-footer__col-two-three-group {
       text-align: left;
@@ -563,7 +636,7 @@ p, li {
     text-align: center;
   }
 
-@media (min-width: 960px) {
+@media (max-width: 960px) {
 
 .site-footer__col-four {
       padding-top: 0;

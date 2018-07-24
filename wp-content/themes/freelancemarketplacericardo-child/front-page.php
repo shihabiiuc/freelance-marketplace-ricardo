@@ -11,7 +11,6 @@ global $user_ID;
 ?>
 
 <!--Project categories nav-->
-
 <?php
 $terms = get_terms('project_category', array(
 	'orderby'   => 'name',
@@ -55,6 +54,27 @@ $terms = get_terms('project_category', array(
     </div>
 </nav>
 <!--Project categories nav end-->
+
+<!--Home page banner-->
+<section class="ricardobanner container-fluid">
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-5 ricardobanner__leftcontent">
+            <h1 class="ricardobanner__heading">Get it done with a<br>freelancer</h1>
+            <p class="ricardobanner__subtitle">Grow your business with the top freelancing website.</p>
+            <a class="ricardobanner__getstarted" href="<?php echo site_url('/register'); ?>">Get Started</a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-5 ricardobanner__middlecontent">
+            <img src="<?php echo get_theme_file_uri('/images/Roger-Gardner.png'); ?>" alt="">
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-2 ricardobanner__rightcontent">
+            <p><b>Roger Gardner</b></p>
+            <p>CEO, Learfield</p>
+            <a href="#"><i class="fab fa-youtube"></i> Watch his story</a>
+        </div>
+    </div>
+</section>
+<!--Home page banner end -->
+
 
 
 <!-- Block Banner -->

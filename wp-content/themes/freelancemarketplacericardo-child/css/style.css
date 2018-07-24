@@ -24,5 +24,6 @@
 /* BEM Blocks */
 @import "modules/site-header";
 @import "modules/front-page-category-nav";
+@import "modules/banner";
 @import "modules/site-footer";
 

@@ -1,6 +1,9 @@
 <?php
 function ricardo_files() {
 
+
+	wp_enqueue_style( 'fontawesome', 'https://use.fontawesome.com/releases/v5.1.1/css/all.css' );
+	wp_enqueue_style( 'JosefinSans', '//fonts.googleapis.com/css?family=Josefin+Sans:400,700' ); //font-family: 'Josefin Sans', sans-serif;
 	wp_enqueue_style( 'OpenSans', '//fonts.googleapis.com/css?family=Open+Sans:300,400,600' );	 //font-family: 'Open Sans', sans-serif;
 	wp_enqueue_style( 'ricardo_parent_style-1', get_template_directory_uri() . '/style.css' );
 	wp_enqueue_style( 'ricardo_parent_styles-2', get_template_directory_uri() . '/css/custom.css' );
