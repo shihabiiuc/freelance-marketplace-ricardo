@@ -188,15 +188,19 @@ global $current_user;
                     <div class="fre-login-wrap">
                         <ul class="fre-login">
                             <li>
+                                <a href="#">HOW IT WORKS</a>
+                            </li>
+                            <li>
                                 <a href="<?php echo et_get_page_link( "login" ) ?>"><?php _e( 'LOGIN', ET_DOMAIN ); ?></a>
                             </li>
 							<?php if ( fre_check_register() ) { ?>
                                 <li>
                                     <a href="<?php echo et_get_page_link( "register" ) ?>"><?php _e( 'SIGN UP', ET_DOMAIN ); ?></a>
                                 </li>
+                                <a id="postajob" href="<?php echo site_url('/submit-project'); ?>">POST A JOB</a>
 							<?php } ?>
                         </ul>
-                    </div>
+
                 </div>
 			<?php } else { ?>
                 <div class="fre-account-wrap dropdown">

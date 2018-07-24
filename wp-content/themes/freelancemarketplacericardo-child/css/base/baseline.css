@@ -16,12 +16,19 @@
   }
 }
 
+@define-mixin atLarge {
+    @media (max-width: 1199px) {
+        @mixin-content;
+    }
+}
+
 body {
   color: #333;
   font-family: 'Open Sans', sans-serif;
   overflow-x: hidden;
   position: relative;
 }
+
 
 img {
   max-width: 100%;
@@ -30,6 +37,7 @@ img {
 
 a {
   color: $mainBlue;
+  transition: all ease-out 0.8s;
 }
 
 a:hover {
