@@ -1,0 +1,5 @@
+#catNav{
+    border-radius: 0px; border-right: none; border-left: none; box-shadow: 0 0 5px #212121;;
+    ul li a{ color: $thirdcolor; font-weight: 600; transition: all ease-out 0.8s; }
+    ul li a:hover{ color: $maincolor; }
+}

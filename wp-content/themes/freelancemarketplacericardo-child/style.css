@@ -479,6 +479,14 @@ p, li {
 
 .fre-account-wrap .fre-login-wrap .fre-login #postajob:hover{ color: #ED1B2E; background: #F1F1F1; }
 
+#catNav{
+    border-radius: 0px; border-right: none; border-left: none; box-shadow: 0 0 5px #212121;
+}
+
+#catNav ul li a{ color: #c6a01b; font-weight: 600; transition: all ease-out 0.8s; }
+
+#catNav ul li a:hover{ color: #ED1B2E; }
+
 .site-footer {
   padding: 2rem 0 3.5rem 0;
   background-image: linear-gradient(#FFF, #ECECEC);
@@ -566,3 +574,4 @@ p, li {
       float: right
   }
   }
+
