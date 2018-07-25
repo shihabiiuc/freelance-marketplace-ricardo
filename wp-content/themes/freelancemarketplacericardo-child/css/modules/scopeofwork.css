@@ -1,0 +1,19 @@
+.scopeofwork{
+    padding: 20px 0;
+
+    &__border{ border-bottom: 2px solid #00aeff;
+        @mixin atLarge{ border-bottom: none; border-left: 3px solid #00aeff; min-height: 116px;}
+        @mixin atMedium{ border-bottom: none; }
+     }
+
+    &__heading{ font-family: 'Josefin Sans', sans-serif; font-weight: 700;
+        font-size: 18px;
+        @mixin atMedium{ font-size: 16px; }
+     }
+
+    &__title{ font-family: 'Open Sans', sans-serif; font-weight: 600;
+         margin-bottom: 1px; margin-top: 15px;
+     }
+
+    &__description{ margin-bottom: 0; }
+}

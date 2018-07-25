@@ -601,7 +601,7 @@ p, li {
   }
 
 .trusted{
-    padding: 50px 0; background: #494949;
+    padding: 50px 0; background: #8e8d8d;
 }
 
 .trusted img{padding: 5px; max-height: 50px; }
@@ -609,6 +609,41 @@ p, li {
 .trusted p{ color: #ffffff; line-height: 1.3; font-family: 'Open Sans', sans-serif;
         font-weight: 300;
     }
+
+.scopeofwork{
+    padding: 20px 0;
+}
+
+.scopeofwork__border{ border-bottom: 2px solid #00aeff;
+     }
+
+@media (min-width: 1200px) {
+
+.scopeofwork__border{ border-bottom: none; border-left: 3px solid #00aeff; min-height: 116px
+     }
+  }
+
+@media (min-width: 960px) {
+
+.scopeofwork__border{ border-bottom: none
+     }
+  }
+
+.scopeofwork__heading{ font-family: 'Josefin Sans', sans-serif; font-weight: 700;
+        font-size: 18px;
+     }
+
+@media (min-width: 960px) {
+
+.scopeofwork__heading{ font-size: 16px
+     }
+  }
+
+.scopeofwork__title{ font-family: 'Open Sans', sans-serif; font-weight: 600;
+         margin-bottom: 1px; margin-top: 15px;
+     }
+
+.scopeofwork__description{ margin-bottom: 0; }
 
 .site-footer {
   padding: 2rem 0 3.5rem 0;

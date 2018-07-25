@@ -124,6 +124,30 @@ $terms = get_terms('project_category', array(
 </section>
 <!--Trusted by end-->
 
+<!--Hire for any scope of work-->
+<section class="container-fluid scopeofwork">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <p class="scopeofwork__heading">You can hire for any scope<br>of project</p>
+            </div>
+            <div class="col-md-3 scopeofwork__border">
+                <p class="scopeofwork__title"><i class="fas fa-compass"></i> Short-term tasks</p>
+                <p class="scopeofwork__description">You can hire our talented freelancers for any short-term project</p>
+            </div>
+            <div class="col-md-3 scopeofwork__border">
+                <p class="scopeofwork__title"><i class="fas fa-cubes"></i> Recurring projects</p>
+                <p class="scopeofwork__description">If you need help frequently, you can have a go-to team with specialized skills.</p>
+            </div>
+            <div class="col-md-3 scopeofwork__border">
+                <p class="scopeofwork__title"><i class="fas fa-handshake"></i> Full-time contract work</p>
+                <p class="scopeofwork__description">Expand your staff with a dedicated team and have a outsource from our marketplace.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Hire for any scope of work end-->
+
 
 
 
