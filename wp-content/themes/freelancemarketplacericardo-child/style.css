@@ -420,7 +420,7 @@ p, li {
 
 .p-bottom-large {padding-bottom: 1.6rem}
 
-@media (max-width: 530px) {
+@media (min-width: 530px) {
   .p-top-large {padding-top: 3.5rem}
   .p-bottom-large {padding-bottom: 3.5rem}
   }
@@ -468,97 +468,125 @@ p, li {
 
 .fre-account-wrap .fre-login-wrap .fre-login li a:hover{ color: #ED1B2E; }
 
-.fre-account-wrap .fre-login-wrap .fre-login #postajob{ background: #ED1B2E; color: #FFFFFF; font-weight: 600; padding: 5px 20px; margin-left: 3rem; transition: all ease-out 0.8s;
+.fre-account-wrap .fre-login-wrap .fre-login #postajob{ background: #ED1B2E; color: #FFFFFF; font-weight: 600; padding: 5px 20px; transition: all ease-out 0.8s;
       }
 
-@media (max-width: 1199px) {
+@media (min-width: 1200px) {
 
-.fre-account-wrap .fre-login-wrap .fre-login #postajob{ margin-left: 0
+.fre-account-wrap .fre-login-wrap .fre-login #postajob{ margin-left: 3rem
       }
-    }
+  }
 
 .fre-account-wrap .fre-login-wrap .fre-login #postajob:hover{ color: #ED1B2E; background: #F1F1F1; }
 
-#catNav{
-    border-radius: 0px; border-right: none; border-left: none; box-shadow: 0 0 5px #212121;
+/*Logo*/
+
+.fre-site-logo>a img{ width: 100px; height: auto;
 }
 
-#catNav ul li a{ color: #c6a01b; font-weight: 600; transition: all ease-out 0.8s; }
+@media (min-width: 530px) {
+
+.fre-site-logo>a img{ width: 100%; height: auto
+}
+  }
+
+/*Modal how it works*/
+
+.close{position: absolute; top: 26px; right: 10px;
+}
+
+.close span .fas{font-weight: bolder; color: #ED1B2E; font-size: 20px; }
+
+#catNav{
+    border-radius: 0px; border-right: none; border-left: none;
+    box-shadow: 0 0 5px #212121; margin-bottom: 0;
+}
+
+#catNav ul li a{ color: #c6a01b; font-weight: 600; transition: all ease-out 0.8s;
+    }
+
+@media (min-width: 768px) {
+
+#catNav ul li a{ padding: 10px 2px; font-size: 1rem
+    }
+  }
+
+@media (min-width: 960px) {
+
+#catNav ul li a{ padding: 10px 6px; font-size: 12px
+    }
+  }
 
 #catNav ul li a:hover{ color: #ED1B2E; }
 
 .ricardobanner{
-    max-height: 400px; position: relative;
+    max-height: 500px; background-image: url("images/brickwall.png");
+    padding-top: 20px;
+
 
 
 
 
 }
 
-.ricardobanner__heading{ font-family: 'Josefin Sans', sans-serif; color: #222222;
-        font-weight: 700; font-size: 4.5rem; line-height: 1.2; margin: 0;
+.ricardobanner__leftcontent__heading{ font-family: 'Josefin Sans', sans-serif; color: #222222;
+             font-weight: 700; font-size: 20px; line-height: 1.3;
+
+         }
+
+@media (min-width: 768px) {
+
+.ricardobanner__leftcontent__heading{ font-size: 30px
+
+         }
+  }
+
+@media (min-width: 960px) {
+
+.ricardobanner__leftcontent__heading{ font-size: 40px
+
+         }
+  }
+
+.ricardobanner__leftcontent__subtitle{ font-family: 'Open Sans', sans-serif; font-weight: 600;
+             font-size: 13px; color: #636161; margin-top: 15px; letter-spacing: 1px;
+         }
+
+@media (min-width: 960px) {
+
+.ricardobanner__leftcontent__subtitle{ font-size: 16px
+         }
+  }
+
+.ricardobanner__leftcontent__getstarted{ background: #ED1B2E; color: #ffffff; padding: 10px 30px;
+            font-weight: 600; transition: all ease-out 0.8s; margin-bottom: 10px;
+            display: block; max-width: 200px; text-align: center; }
+
+.ricardobanner__leftcontent__getstarted:hover{ background: #222222; color: #ffffff; }
+
+.ricardobanner__middlecontent img{ max-width: 250px; height: auto; display: block; margin-left: auto;
+            margin-right: auto;
+        }
+
+@media (min-width: 1200px) {
+
+.ricardobanner__middlecontent img{ width: 100%; height: auto
+        }
+  }
+
+.ricardobanner__rightcontent{
+        text-align: center; margin-bottom: 20px;
      }
 
-@media (max-width: 530px) {
+@media (min-width: 768px) {
 
-.ricardobanner__heading{ font-size: 2rem
+.ricardobanner__rightcontent{ text-align: right
      }
   }
 
-@media (max-width: 767px) {
+.ricardobanner__rightcontent p{ margin: 0;}
 
-.ricardobanner__heading{ font-size: 3rem
-     }
-  }
-
-@media (max-width: 960px) {
-
-.ricardobanner__heading{ font-size: 2.5rem
-     }
-  }
-
-.ricardobanner__subtitle{ font-family: 'Open Sans', sans-serif; font-weight: 600;
-        font-size: 16px; color: #636161; margin-top: 15px; letter-spacing: 1px;
-     }
-
-.ricardobanner__getstarted{ background: #ED1B2E; color: #ffffff; padding: 10px 30px;
-        font-weight: 600; transition: all ease-out 0.8s;
-     }
-
-.ricardobanner__getstarted:hover{ background: #222222; color: #ffffff; }
-
-.ricardobanner__leftcontent{ margin-top: 50px;
-     }
-
-@media (max-width: 530px) {
-
-.ricardobanner__leftcontent{ margin-top: 5px
-     }
-  }
-
-@media (max-width: 767px) {
-
-.ricardobanner__leftcontent{ margin-top: 5px
-     }
-  }
-
-@media (max-width: 960px) {
-
-.ricardobanner__leftcontent{ margin-top: 0px
-     }
-  }
-
-.ricardobanner__middlecontent{ display: block; overflow: hidden;
-
-     }
-
-.ricardobanner__middlecontent img{ max-width: 100%; height: auto; }
-
-.ricardobanner__rightcontent{ position: absolute; right: 10px; bottom: 20px; text-align: right; }
-
-.ricardobanner__rightcontent p{ margin: 0; color: #222222; }
-
-.ricardobanner__rightcontent a{ font-weight: bold; color: #F95738; }
+.ricardobanner__rightcontent a{font-weight: bold; color: #F95738;}
 
 .site-footer {
   padding: 2rem 0 3.5rem 0;
@@ -593,7 +621,7 @@ p, li {
     text-align: center;
   }
 
-@media (max-width: 960px) {
+@media (min-width: 960px) {
 
 .site-footer__col-one {
       text-align: left;
@@ -608,7 +636,7 @@ p, li {
     margin: 0 auto;
   }
 
-@media (max-width: 960px) {
+@media (min-width: 960px) {
 
 .site-footer__col-two-three-group {
       text-align: left;
@@ -636,7 +664,7 @@ p, li {
     text-align: center;
   }
 
-@media (max-width: 960px) {
+@media (min-width: 960px) {
 
 .site-footer__col-four {
       padding-top: 0;

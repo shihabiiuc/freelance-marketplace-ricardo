@@ -1,26 +1,28 @@
 @define-mixin atSmall {
-  @media (max-width: 530px) {
+  @media (min-width: 530px) {
     @mixin-content;
   }
 }
 
 @define-mixin atSmallMedium {
-  @media (max-width: 767px) {
+  @media (min-width: 768px) {
     @mixin-content;
   }
 }
 
 @define-mixin atMedium {
-  @media (max-width: 960px) {
+  @media (min-width: 960px) {
     @mixin-content;
   }
 }
 
 @define-mixin atLarge {
-    @media (max-width: 1199px) {
-        @mixin-content;
-    }
+  @media (min-width: 1200px) {
+    @mixin-content;
+  }
 }
+
+
 
 body {
   color: #333;

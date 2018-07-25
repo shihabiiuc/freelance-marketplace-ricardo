@@ -58,21 +58,44 @@ $terms = get_terms('project_category', array(
 <!--Home page banner-->
 <section class="ricardobanner container-fluid">
     <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-5 ricardobanner__leftcontent">
-            <h1 class="ricardobanner__heading">Get it done with a<br>freelancer</h1>
-            <p class="ricardobanner__subtitle">Grow your business with the top freelancing website.</p>
-            <a class="ricardobanner__getstarted" href="<?php echo site_url('/register'); ?>">Get Started</a>
+
+        <div class="col-xs-12 col-sm-6 col-md-6 ricardobanner__leftcontent">
+            <h1 class="ricardobanner__leftcontent__heading">Get it done with a<br>freelancer</h1>
+            <p class="ricardobanner__leftcontent__subtitle">Grow your business with the top freelancing website.</p>
+            <a class="ricardobanner__leftcontent__getstarted" href="<?php echo site_url('/register'); ?>">Get Started</a>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-5 ricardobanner__middlecontent">
+
+        <div class="col-xs-12 col-sm-6 col-md-6 ricardobanner__middlecontent">
             <img src="<?php echo get_theme_file_uri('/images/Roger-Gardner.png'); ?>" alt="">
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-2 ricardobanner__rightcontent">
+
+        <div class="col-xs-12 col-sm-12 col-md-12 ricardobanner__rightcontent">
             <p><b>Roger Gardner</b></p>
             <p>CEO, Learfield</p>
-            <a href="#"><i class="fab fa-youtube"></i> Watch his story</a>
+            <a id="youtubeAutoplayToggle" href="#" data-toggle="modal" data-target="#story"><i class="fab fa-youtube"></i> Watch his story</a>
         </div>
+
     </div>
 </section>
+
+<!--Modal story-->
+<div class="modal fade" id="story">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="h5 modal-title">Story</h5>
+                <button type="button" class="close" data-dismiss="modal">
+                    <span><i class="fas fa-window-close"></i></span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <iframe width="100%" height="400" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Modal story end -->
 <!--Home page banner end -->
 
 

@@ -1,32 +1,43 @@
 .ricardobanner{
-    max-height: 400px; position: relative;
+    max-height: 500px; background-image: url("images/brickwall.png");
+    padding-top: 20px;
 
-    &__heading{ font-family: 'Josefin Sans', sans-serif; color: $black;
-        font-weight: 700; font-size: 4.5rem; line-height: 1.2; margin: 0;
-        @mixin atSmall{ font-size: 2rem; }
-        @mixin atSmallMedium{ font-size: 3rem; }
-        @mixin atMedium{ font-size: 2.5rem; }
-     }
-    &__subtitle{ font-family: 'Open Sans', sans-serif; font-weight: 600;
-        font-size: 16px; color: #636161; margin-top: 15px; letter-spacing: 1px;
-     }
-    &__getstarted{ background: $maincolor; color: #ffffff; padding: 10px 30px;
-        font-weight: 600; transition: all ease-out 0.8s;
-     }
-    &__getstarted:hover{ background: $black; color: #ffffff; }
+    &__leftcontent{
 
-    &__leftcontent{ margin-top: 50px;
-        @mixin atSmall{ margin-top: 5px; }
-        @mixin atSmallMedium{ margin-top: 5px; }
-        @mixin atMedium{ margin-top: 0px; }
+        &__heading{ font-family: 'Josefin Sans', sans-serif; color: $black;
+             font-weight: 700; font-size: 20px; line-height: 1.3;
+                @mixin atSmallMedium{ font-size: 30px; }
+                @mixin atMedium{ font-size: 40px; }
+
+         }
+
+        &__subtitle{ font-family: 'Open Sans', sans-serif; font-weight: 600;
+             font-size: 13px; color: #636161; margin-top: 15px; letter-spacing: 1px;
+                @mixin atMedium{ font-size: 16px; }
+         }
+
+        &__getstarted{ background: $maincolor; color: #ffffff; padding: 10px 30px;
+            font-weight: 600; transition: all ease-out 0.8s; margin-bottom: 10px;
+            display: block; max-width: 200px; text-align: center; }
+        &__getstarted:hover{ background: $black; color: #ffffff; }
      }
-    &__middlecontent{ display: block; overflow: hidden;
-        img{ max-width: 100%; height: auto; }
+
+
+    &__middlecontent{
+        img{ max-width: 250px; height: auto; display: block; margin-left: auto;
+            margin-right: auto;
+            @mixin atLarge{ width: 100%; height: auto; }
+        }
 
      }
-    &__rightcontent{ position: absolute; right: 10px; bottom: 20px; text-align: right; }
-    &__rightcontent p{ margin: 0; color: $black; }
-    &__rightcontent a{ font-weight: bold; color: $darkOrange; }
+
+    &__rightcontent{
+        text-align: center; margin-bottom: 20px;
+        @mixin atSmallMedium{ text-align: right; }
+        p{ margin: 0;}
+        a{font-weight: bold; color: $darkOrange;}
+     }
+
 
 
 

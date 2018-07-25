@@ -1,5 +1,9 @@
 #catNav{
-    border-radius: 0px; border-right: none; border-left: none; box-shadow: 0 0 5px #212121;;
-    ul li a{ color: $yellow; font-weight: 600; transition: all ease-out 0.8s; }
+    border-radius: 0px; border-right: none; border-left: none;
+    box-shadow: 0 0 5px #212121; margin-bottom: 0;
+    ul li a{ color: $yellow; font-weight: 600; transition: all ease-out 0.8s;
+        @mixin atSmallMedium{ padding: 10px 2px; font-size: 1rem; }
+        @mixin atMedium{ padding: 10px 6px; font-size: 12px; }
+    }
     ul li a:hover{ color: $maincolor; }
 }

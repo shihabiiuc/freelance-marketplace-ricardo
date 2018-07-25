@@ -3,10 +3,20 @@
     .fre-login{
       li a{ font-weight: 600; }
       li a:hover{ color: $maincolor; }
-      #postajob{ background: $maincolor; color: #FFFFFF; font-weight: 600; padding: 5px 20px; margin-left: 3rem; transition: all ease-out 0.8s;
-        @mixin atLarge{ margin-left: 0 }
+      #postajob{ background: $maincolor; color: #FFFFFF; font-weight: 600; padding: 5px 20px; transition: all ease-out 0.8s;
+        @mixin atLarge{ margin-left: 3rem; }
       }
       #postajob:hover{ color: $maincolor; background: #F1F1F1; }
     }
   }
+}
+
+/*Logo*/
+.fre-site-logo>a img{ width: 100px; height: auto;
+    @mixin atSmall{ width: 100%; height: auto; }
+}
+
+/*Modal how it works*/
+.close{position: absolute; top: 26px; right: 10px;
+  span .fas{font-weight: bolder; color: $maincolor; font-size: 20px; }
 }

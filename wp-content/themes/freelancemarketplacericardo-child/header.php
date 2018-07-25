@@ -188,7 +188,7 @@ global $current_user;
                     <div class="fre-login-wrap">
                         <ul class="fre-login">
                             <li>
-                                <a href="#">HOW IT WORKS</a>
+                                <a href="#" data-toggle="modal" data-target="#howitworks">HOW IT WORKS</a>
                             </li>
                             <li>
                                 <a href="<?php echo et_get_page_link( "login" ) ?>"><?php _e( 'LOGIN', ET_DOMAIN ); ?></a>
@@ -235,6 +235,50 @@ global $current_user;
         </div>
     </div>
 </header>
+
+<!--Modal How it works-->
+<div class="modal fade" id="howitworks">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="h5 modal-title">How it works</h5>
+                <button type="button" class="close" data-dismiss="modal">
+                    <span><i class="fas fa-window-close"></i></span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <h4 class="text-center"><i class="fas fa-user-tie"></i> <i>If you are an Employer</i></h4>
+                <p>
+                    First register as an Employer. Post a Job and our freelancers will
+                    bid on your project. You can hire any one of them. If you think that
+                    none of the freelancers are perfect for your project then you can
+                    search for other freelancers and invite them to apply on your project.
+                </p>
+
+                <div class="modal-body">
+                    <h4 class="text-center"><i class="fas fa-user-clock"></i> <i>If you are a Freelancer</i></h4>
+                    <p>
+                        Register as a Freelancer and you will find many job posts. Submit
+                        proposals on those projects which you can perform well.
+                    </p>
+                </div>
+
+                <div class="modal-body">
+                    <h4 class="text-center"><i class="fas fa-donate"></i> <i><b>Payment</b></i></h4>
+                    <p>
+                        Every payment made via our platform. It's strictly prohibited
+                        transact directly between Employer and Freelancer. We will not
+                        take any responsibility for this type of issue. Pay and get paid
+                        via our platform and stay safe.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!--Modal How it works end-->
 <!-- MENU DOOR / END -->
 
 <?php
