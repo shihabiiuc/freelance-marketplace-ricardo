@@ -89,14 +89,41 @@ $terms = get_terms('project_category', array(
                 </button>
             </div>
 
-            <div class="modal-body">
-                <iframe width="100%" height="400" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <div class="modal-body" id="videoWidthHeight">
+                <iframe src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
         </div>
     </div>
 </div>
 <!--Modal story end -->
 <!--Home page banner end -->
+
+<!--Trusted by start-->
+<section class="container-fluid trusted js-ini-position">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-2"><p>Trusted by hundreds of businessmen &amp; organizations</p></div>
+
+            <div class="col-xs-6 col-sm-2">
+                <img src="<?php echo get_theme_file_uri('/images/danish.png'); ?>" alt="client">
+            </div>
+            <div class="col-xs-6 col-sm-2">
+                <img src="<?php echo get_theme_file_uri('/images/persona.png'); ?>" alt="client">
+            </div>
+            <div class="col-xs-6 col-sm-2">
+                <img src="<?php echo get_theme_file_uri('/images/apex.png'); ?>" alt="client">
+            </div>
+            <div class="col-xs-6 col-sm-2">
+                <img src="<?php echo get_theme_file_uri('/images/Arla_Foods.png'); ?>" alt="client">
+            </div>
+            <div class="col-xs-12 col-sm-2">
+                <img src="<?php echo get_theme_file_uri('/images/Walton.png'); ?>" alt="client">
+            </div>
+        </div>
+    </div>
+</section>
+<!--Trusted by end-->
+
 
 
 

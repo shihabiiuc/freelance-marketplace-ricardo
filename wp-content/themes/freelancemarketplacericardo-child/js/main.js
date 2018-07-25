@@ -1,14 +1,14 @@
 jQuery(document).ready(function($){
 
-// FAQ PAGE - QUICK LINKS - MOBILE MENU
-    var mobilemenu = $('#mobilemenu');
-    mobilemenu.waypoint(function() {
-        mobilemenu.toggleClass("animated lightSpeedIn js-mobilemenu");
+// Front page -trusted by
+    var trust = $('.trusted');
+    trust.waypoint(function() {
+        trust.addClass("animated zoomIn");
+        trust.removeClass("js-ini-position");
+    }, {offset: '80%'});
 
-    }, {offset: '15%'});
 
-
-    // modal
+    // modal -watch his story
     var watchstory = $('#youtubeAutoplayToggle');
     $('.close').on('click', function (e) {
         $("#story iframe").attr("src", null);

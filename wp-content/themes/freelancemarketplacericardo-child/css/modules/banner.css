@@ -1,6 +1,6 @@
 .ricardobanner{
     max-height: 500px; background-image: url("images/brickwall.png");
-    padding-top: 20px;
+    @mixin atSmallMedium{ padding-top: 20px; }
 
     &__leftcontent{
 
@@ -38,8 +38,13 @@
         a{font-weight: bold; color: $darkOrange;}
      }
 
+}
 
-
-
+/*Modal -watch his story*/
+#videoWidthHeight{
+    iframe{ width: 100%; height: auto;
+        @mixin atSmallMedium{ height: 350px; }
+        @mixin atLarge{ height: 400px; }
+    }
 
 }
