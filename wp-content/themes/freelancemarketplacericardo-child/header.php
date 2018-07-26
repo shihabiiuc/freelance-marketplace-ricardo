@@ -162,7 +162,7 @@ global $current_user;
                     <!-- Main Menu -->
 					<?php if ( has_nav_menu( 'et_header_standard' ) ) { ?>
                         <li class="fre-menu-page dropdown">
-                            <a><?php _e( 'PAGES', ET_DOMAIN ); ?><i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                            <a><?php _e( 'Projects', ET_DOMAIN ); ?><i class="fa fa-caret-down" aria-hidden="true"></i></a>
 							<?php
 							$args = array(
 								'theme_location'  => 'et_header_standard',
@@ -182,6 +182,27 @@ global $current_user;
 							?>
                         </li>
 					<?php } ?>
+
+<!-- Employer menu start-->
+ <?php
+ $user = wp_get_current_user();
+ if( in_array( 'employer', (array) $user->roles ) ){ ?>
+     <li><a href="<?php echo site_url('/my-project'); ?>">My Projects</a></li>
+     <li><a href="<?php echo site_url('/profiles'); ?>">Freelancers</a></li>
+ <?php }
+ ?>
+<!--Employer menu end-->
+
+<!--Freelancer menu start -->
+<?php
+$user = wp_get_current_user();
+if( in_array( 'freelancer', (array) $user->roles ) ){ ?>
+    <li><a href="<?php echo site_url('/my-project'); ?>">My Projects</a></li>
+    <li><a href="<?php echo site_url('/projects'); ?>">Find Jobs</a></li>
+<?php }
+?>
+<!--Freelancer menu end -->
+
                     <!-- Main Menu -->
                 </ul>
             </div>
