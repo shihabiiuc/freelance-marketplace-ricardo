@@ -69,6 +69,7 @@ global $current_user;
                         </span>
                 </div>
             </div>
+
 			<?php if ( is_user_logged_in() ) { ?>
                 <div class="fre-account-tablet">
                     <div class="fre-account-info">
@@ -142,6 +143,7 @@ global $current_user;
                     </div>
                 </form>
             </div>
+
 			<?php if ( is_user_logged_in() ) { ?>
                 <div class="fre-account-info-tablet">
                     <ul class="dropdown-menu">
@@ -183,6 +185,7 @@ global $current_user;
                     <!-- Main Menu -->
                 </ul>
             </div>
+
 			<?php if ( ! is_user_logged_in() ) { ?>
                 <div class="fre-account-wrap">
                     <div class="fre-login-wrap">

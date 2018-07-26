@@ -233,7 +233,10 @@ $terms = get_terms('project_category', array(
 </div>
 <!-- Block How Work -->
 <!-- List Profiles -->
-<div class="fre-perfect-freelancer">
+<?php // I don't want to show other freelancers list to logged in freelancer
+$user = wp_get_current_user();
+if( !in_array( 'freelancer', (array) $user->roles ) ){ ?>
+   <div class="fre-perfect-freelancer">
     <div class="container">
         <h2 id="title_freelance"><?php echo get_theme_mod("title_freelance") ? get_theme_mod("title_freelance") : __('Find perfect freelancers for your projects', ET_DOMAIN); ?></h2>
 		<?php get_template_part('home-list', 'profiles'); ?>
@@ -243,45 +246,27 @@ $terms = get_terms('project_category', array(
         </div>
     </div>
 </div>
+<?php }
+?>
+
 <!-- List Profiles -->
 <!-- List Projects -->
-<div class="fre-jobs-online">
-    <div class="container">
-        <h2 id="title_project"><?php echo get_theme_mod("title_project") ? get_theme_mod("title_project") : __('Browse numerous freelance jobs online', ET_DOMAIN); ?></h2>
-		<?php get_template_part('home-list', 'projects'); ?>
-    </div>
-</div>
-<!-- List Projects -->
-<!-- List Testimonials -->
-<div class="fre-our-stories">
-    <div class="container">
-        <h2 id="title_story"><?php echo get_theme_mod("title_story") ? get_theme_mod("title_story") : __('Hear what our customers have to say', ET_DOMAIN); ?></h2>
-		<?php get_template_part('home-list', 'testimonial'); ?>
-    </div>
-</div>
-<!-- List Testimonials -->
-<!-- List Pricing Plan -->
-<?php
-global $disable_plan, $pay_to_bid;
-$disable_plan = (int)ae_get_option('disable_plan', false);
-$pay_to_bid   = ae_get_option('pay_to_bid', false);
-
-if (!$disable_plan || $pay_to_bid) { ?>
-    <div class="fre-service">
+<?php // I don't want to display jobs to a logged in employer
+$user = wp_get_current_user();
+if( !in_array( 'employer', (array) $user->roles ) ){ ?>
+    <div class="fre-jobs-online">
         <div class="container">
-            <h2 id="title_service">
-				<?php
-				if (ae_user_role($user_ID) == FREELANCER) {
-					echo get_theme_mod("title_service_freelancer") ? get_theme_mod("title_service_freelancer") : __('Select the level of service you need for project bidding', ET_DOMAIN);
-				} else {
-					echo get_theme_mod("title_service") ? get_theme_mod("title_service") : __('Select the level of service you need for project posting', ET_DOMAIN);
-				}
-				?>
-            </h2>
-			<?php get_template_part('home-list', 'pack'); ?>
+            <h2 id="title_project"><?php echo get_theme_mod("title_project") ? get_theme_mod("title_project") : __('Browse numerous freelance jobs online', ET_DOMAIN); ?></h2>
+			<?php get_template_part('home-list', 'projects'); ?>
         </div>
     </div>
-<?php } ?>
+<?php }
+?>
+
+<!-- List Projects -->
+
+<!-- List Pricing Plan -->
+<!--    I made bidding free always-->
 <!-- List Pricing Plan -->
 <!-- List Get Started -->
 <div class="fre-get-started">
