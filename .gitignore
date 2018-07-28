@@ -17,6 +17,7 @@ wp-content/*
 wp-content/themes/*
 !wp-content/themes/freelancemarketplacericardo/
 !wp-content/themes/freelancemarketplacericardo-child/
+!wp-content/themes/live-preview.jpg
 
 # Ignore certain files and folders in theme
 wp-content/themes/freelancemarketplacericardo-child/users.txt
